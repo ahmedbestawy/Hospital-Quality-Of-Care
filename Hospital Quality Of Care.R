@@ -52,16 +52,11 @@ best <- function(state, outcome) {
     else if(!outcome %in% names(analysis_data)){
         stop("invalid outcome")
     }
-    LS <- lapply(ss, function(x){
-        which.min(x[ ,outcome])})
-    
-    row_number <- LS[[state]]
     state_data <- ss[[state]]
-    
     state_data <- state_data[order(state_data[ , outcome]
                                    , state_data[ ,1]), ]
-    
-    state_data[row_number,1]
+
+    state_data[1,1]
 }
 
 
