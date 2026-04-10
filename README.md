@@ -5,7 +5,7 @@
 ### Functions
 
 |  |  |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Function** | **Purpose** |
 | `best()` | Identifies the single hospital with the lowest mortality rate in a given state. |
 | `rankhospital()` | Returns the hospital name at a specific rank (e.g., 5th or "worst") for a chosen outcome. |
@@ -13,6 +13,6 @@
 
 ### Output
 
-![](images/Screenshot%202026-04-10%20011427.png){width="304"}
+![](images/Screenshot%202026-04-10%20011427.png){width="175"}
 
-![](images/Screenshot%202026-04-10%20012919.png){width="350"}
+![](images/Screenshot%202026-04-10%20012919.png){width="204"}
